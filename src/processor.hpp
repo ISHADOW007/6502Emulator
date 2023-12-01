@@ -168,6 +168,9 @@ public:
 
     /***CLV Instructions ***/
     void CLV_impl(Memory *mem);
+
+    /***TYA Instructions ***/
+    void TYA_impl(Memory *mem);
 };
 
 
